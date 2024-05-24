@@ -1,0 +1,55 @@
+header {
+    margin: 20px;
+    width: 96vw;
+    border-bottom: 4px solid white;
+}
+
+.top-header {
+    font-size: 30px;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight: bolder;
+    width: 202px;
+    height: 36px;
+}
+
+.dark-light{
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.dark {
+    background-color: midnightblue;
+    height: 100vh;
+    color: crimson;
+}
+
+.light {
+    background-color: indianred;
+    color: aliceblue;
+    height: 100vh;
+}
+.searchbar {
+    position: absolute;
+    right: 4px;
+    top: 32px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+a:link, a:visited {
+    background-color: #4a5f77;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: skyblue;
+  }
