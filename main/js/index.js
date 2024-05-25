@@ -6,3 +6,4 @@ function openSearch() {
   function closeSearch() {
     document.getElementById("myOverlay").style.display = "none";
   }
+

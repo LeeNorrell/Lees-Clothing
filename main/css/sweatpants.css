@@ -9,7 +9,7 @@ header {
     font-style: oblique;
     font-family: cursive;
     font-weight: bolder;
-    width: 254px;
+    width: 200px;
     height: 36px;
 }
 
@@ -17,6 +17,7 @@ header {
     position: absolute;
     right: 5px;
     top: 4px;
+    background-color:#4a5f77 ;
 }
 .dark {
     background-color: midnightblue;
@@ -31,8 +32,15 @@ header {
 }
 .searchbar {
     position: absolute;
-    right: 4px;
-    top: 32px;
+    right: 36px;
+    top: 4px;
+    height: 26px;
+    background-color: #4a5f77;
+    color: white;
+}
+
+.searchbar:hover{
+    cursor: pointer;
 }
 
 .categories {
@@ -52,4 +60,65 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: skyblue;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9); 
+  }
+  
+  .full-screen-search {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(250, 4, 4);
+  }
+  
+  .overlay .closebtn:hover {
+    color: green;
+  }
+  
+  .overlay input[type=text] {
+    padding: 14px;
+    font-size: 20px;
+    border: 2px solid darkblue;
+    float: left;
+    width: 80%;
+    background: #4d6eda;
+  }
+
+  .overlay button {
+    float: left;
+    display: flex;
+    width: 16%;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    background: darkorange
+  }
+  
+  .overlay button:hover {
+    background: #bbb;
+  }
+  
+  .search-text-color {
+    color: rgb(74, 226, 253);
   }
