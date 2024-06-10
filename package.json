@@ -1,0 +1,11 @@
+{
+  "name": "mens-clothing",
+  "version": "1.0.0",
+  "description": "Mens clothing website",
+  "main": "vite",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee Norrell",
+  "license": "ISC"
+}
