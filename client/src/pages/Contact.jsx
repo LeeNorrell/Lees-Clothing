@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { validateEmail } from "../../utils/helper";
+import '../App.css';
 
 const styles = {
   page: {
@@ -25,18 +26,18 @@ const styles = {
   box: {
     fontSize: '13px',
     fontWeight: 'bolder',
-    background: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)',
+    background: ' linear-gradient(to bottom right,#06967e, rgb(27, 109, 68))',
     marginTop: '6px',
     color: 'white'
   },
   submit: {
     marginTop: '10px',
     color: 'white',
-    background: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)',
+    background: ' linear-gradient(to bottom right,#06967e, rgb(27, 109, 68))',
   },
   contactMe: {
     color:'white',
-    background: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)',
+    background: ' linear-gradient(to bottom right,#06967e, rgb(27, 109, 68))',
   }
 
 }

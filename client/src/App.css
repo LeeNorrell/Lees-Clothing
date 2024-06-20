@@ -1,1 +1,13 @@
+.navbar,
+.navbar-default { 
+background-image: linear-gradient(to bottom right,#06967e, rgb(27, 109, 68)) !important;
+}
 
+::placeholder {
+    color: white;
+}
+
+#dropdown-item-button {
+    background:  linear-gradient(to bottom right,#06967e, rgb(27, 109, 68));
+    
+}

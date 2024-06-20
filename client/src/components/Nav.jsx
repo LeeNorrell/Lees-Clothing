@@ -11,6 +11,7 @@ const styles = {
     color: 'black',
   },
  
+ 
 }
 
 export default function Navigation() {
@@ -18,7 +19,7 @@ export default function Navigation() {
 
   return (
     <>
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar  expand="lg" className="bg-body-tertiary">
       <Container >
         <Navbar.Brand style={styles.name} >Lee's Clothing</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

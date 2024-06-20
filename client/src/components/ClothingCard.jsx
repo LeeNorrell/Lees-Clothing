@@ -3,11 +3,30 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+const styles = {
+  ClothingCard: {
+    display: 'flex',
+    alignItems: 'center',
+    padding: '20px'
+   },
+   colCard: {
+    padding:'10px'
+   },
+   titleText: {
+    display: 'flex',
+    justifyContent: 'center',
+   },
+   bodyStyle: {
+    backgroundImage: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)' 
+   },
+   border: {
+    border: '2px black'
+   }
+}
 
-
-export default function Project({ data }) {
+export default function ClothingCard({ data }) {
     return (
-      <Row style={styles.projectCard}>
+      <Row style={styles.ClothingCard}>
         <Col key={data.id} >
           <Card style={styles.border}>
             <Card.Img variant="top" src={data.image} />

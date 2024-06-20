@@ -19,6 +19,7 @@ const styles = {
   },
   copy: {
     fontSize: '10px',
+    color: 'white'
 
   }
 };
