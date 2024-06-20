@@ -8,7 +8,7 @@ import "../App.css";
 const styles = {
   name: {
     fontSize: 50,
-    color: 'white',
+    color: 'black',
   },
  
 }
@@ -20,7 +20,7 @@ export default function Navigation() {
     <>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container >
-        <Navbar.Brand style={styles.name} >Mens Clothing</Navbar.Brand>
+        <Navbar.Brand style={styles.name} >Lee's Clothing</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" >
@@ -34,84 +34,34 @@ export default function Navigation() {
             </div>
             <div>
             <Link
-              to="/shirts"
+              to="/aboutus"
               className={
-                currentPage === "/shirts" ? "nav-link active" : "nav-link"
+                currentPage === "/aboutus" ? "nav-link active" : "nav-link"
               }
             >
-              Shirts
+              AboutUs
             </Link>
             </div>
             <div>
-            <Link 
-              to="/jackets"
+            <Link
+              to="/contact"
               className={
-                currentPage === "/jackets" ? "nav-link active" : "nav-link"
-                }
-                >
-              Jackets
+                currentPage === "/contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
             </Link>
             </div>
             <div>
-            <Link 
-              to="/hoodies"
+            <Link
+              to="/clothes"
               className={
-                currentPage === "/hoodies" ? "nav-link active" : "nav-link"
-                }
-                >
-              Hoodies
+                currentPage === "/clothes" ? "nav-link active" : "nav-link"
+              }
+            >
+              Clothes
             </Link>
-              </div>
-              <div>
-            <Link 
-              to="/shorts"
-              className={
-                currentPage === "/shorts" ? "nav-link active" : "nav-link"
-                }
-                >
-              Shorts
-            </Link>
-              </div>
-              <div>
-            <Link 
-              to="/pants"
-              className={
-                currentPage === "/pants" ? "nav-link active" : "nav-link"
-                }
-                >
-              Pants
-            </Link>
-              </div>
-              <div>
-            <Link 
-              to="/sweatpants"
-              className={
-                currentPage === "/sweatpants" ? "nav-link active" : "nav-link"
-                }
-                >
-              SweatPants
-            </Link>
-              </div>
-              <div>
-            <Link 
-              to="/underwear"
-              className={
-                currentPage === "/underwear" ? "nav-link active" : "nav-link"
-                }
-                >
-              UnderWear
-            </Link>
-              </div>
-              <div>
-            <Link 
-              to="/shoes"
-              className={
-                currentPage === "/shoes" ? "nav-link active" : "nav-link"
-                }
-                >
-              Shoes
-            </Link>
-              </div>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

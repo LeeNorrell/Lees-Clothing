@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaGithubSquare } from "react-icons/fa";
+import { ImStackoverflow } from "react-icons/im";
 
 const styles = {
   foot: {
